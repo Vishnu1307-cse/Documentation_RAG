@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+
+# Local configuration / secrets
+.env
+
+# Data and generated directories
+backend/temp_repos/
+backend/generated_docs/
+chroma_db/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
